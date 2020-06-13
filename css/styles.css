@@ -33,7 +33,17 @@ body {
   font-family: roboto, sans-serif;
 }
 
-.container {
+.container-header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.container-advantages {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -167,6 +177,10 @@ body {
   text-align: center;
 }
 
+.container-hero {
+  text-align: center;
+}
+
 .button-hero {
   margin-bottom: 294px;
 
@@ -176,7 +190,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 32px;
-
+  text-align: center;
   display: inline-block;
 }
 
@@ -184,6 +198,8 @@ body {
 .section-title {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 
   color: var(--primary-text-color);
 
@@ -193,6 +209,14 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.container-whatdoing {
+  margin-top: 0px;
+  margin-bottom: 94px;
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .title {
@@ -212,7 +236,7 @@ body {
 /* advantages */
 .advantages {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
 }
 
 .advantages-title {
@@ -240,7 +264,21 @@ body {
 }
 
 /* whatdoing */
+.conteiner-whatdoing {
+  margin-top: 0px;
+  margin-bottom: 94px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .whatdoing-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--white-color);
 
   font-family: Roboto, sans-serif;
@@ -253,6 +291,19 @@ body {
 }
 
 /* our team */
+.conteiner-team {
+  margin-top: 94px;
+  margin-bottom: 94px;
+
+  background-color: var(--secondary-text-color);
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .team-title {
   color: var(--primary-text-color);
 
@@ -274,7 +325,23 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* our client */
+.conteiner-client {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  padding-top: 92px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .acall {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: var(--white-color);
 
   font-family: Roboto, sans-serif;
@@ -286,6 +353,9 @@ body {
 }
 
 .rights {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   color: rgba(255, 255, 255, 0.4);
 
   font-family: Roboto, sans-serif;
