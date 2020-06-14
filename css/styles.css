@@ -20,19 +20,12 @@ html {
 .list {
   padding: 0;
   margin: 0;
-
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
-
-/* CNTRL+/ */
-/* основного текста color: #212121;*/
-/* вторичного текста color: #757575;*/
-/* героя и кнопок текст color: #FFFFFF;*/
-/* лого текста color:  #2196f3;*/
-/* вторичный цвет фона  #F5F4FA; */
 
 body {
   margin: 0;
@@ -60,11 +53,15 @@ a {
   padding-right: 15px;
 }
 
-.page-header {
-  background-color: #ffffff;
-}
-
 /* logo */
+
+.logoheader {
+  display: block;
+  margin-right: 85px;
+  margin-top: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .logo-web {
   color: var(--accent-color);
 
@@ -95,6 +92,10 @@ a {
 
 /* navigation site */
 .site-nav {
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
@@ -102,6 +103,21 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.navigation {
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
 }
 
 .site-nav .link:hover,
@@ -114,7 +130,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav .link.current {
+.site-nav .link .current {
   color: var(--accent-color);
   font-family: Roboto, sans-serif;
 
@@ -123,9 +139,15 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.adress {
+  display: flex;
+  /* display: block; */
+  margin-left: auto;
+}
 .adress-nav {
-  color: var(--title-text-color);
+  display: flex;
 
+  color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -133,6 +155,11 @@ a {
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
+
+.adress-nav .item + .item {
+  margin-left: 50px;
+}
+
 .adress-nav .link:hover,
 .adress-nav .link:focus {
   color: var(--accent-color);
@@ -234,9 +261,24 @@ a {
 }
 
 /* advantages */
+.advantages .section-title {
+  opacity: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+}
+
 .advantages .container {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.advantages .item + .item {
+  margin-left: 30px;
 }
 
 .advantages-title {
@@ -253,6 +295,9 @@ a {
 .description {
   margin-top: 0px;
   margin-bottom: 0px;
+
+  width: 270px;
+  display: block;
 
   color: var(--title-text-color);
 
