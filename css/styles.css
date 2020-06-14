@@ -261,22 +261,28 @@ a {
 }
 
 /* advantages */
-.advantages .section-title {
-  opacity: 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .advantages {
   display: flex;
   align-items: center;
 }
-
+.advantages .section-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0;
+}
+.advantages-list {
+  margin-top: 0px;
+}
 .advantages .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.advantages .item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .advantages .item + .item {
   margin-left: 30px;
 }
@@ -309,8 +315,31 @@ a {
 }
 
 /* whatdoing */
-.container .whatdoing {
+
+.whatdoing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: salmon;
+}
+
+.whatdoing .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.whatdoing .container {
+  width: 1200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+  padding-right: 15px;
   padding-bottom: 94px;
+  padding-left: 15px;
 }
 
 .whatdoing-title {
