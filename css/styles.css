@@ -6,6 +6,17 @@
   --secondary-text-color: #f5f4fa;
   --buttunbackground-color: #f5f4fa;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -403,6 +414,9 @@ a {
   letter-spacing: 0.03em;
 }
 /* portfolio list */
+.ourwork .container {
+  padding-top: 72px;
+}
 
 .ourwork-title {
   color: var(--primary-text-color);
