@@ -631,9 +631,8 @@ img {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 50px;
-  margin-left: 8px;
-  margin-top: 93px;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 
 .filter-item:not(:last-child) {
@@ -728,8 +727,9 @@ img {
   flex-wrap: wrap;
   list-style: none;
   padding-left: 0px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .ourwork-element {
@@ -752,11 +752,15 @@ img {
 }
 
 .ourwork-title {
-  margin: 20px 24px 4px 24px;
+  padding: 0px 24px 4px 24px;
+}
+
+.ourwork-img {
+  padding-bottom: 20px;
 }
 
 .ourwork-direction {
-  margin: 0px 24px 20px 24px;
+  padding: 0px 24px 20px 24px;
 }
 
 /* Спрятал текст который сделаем посже в портфолио на картинках */
