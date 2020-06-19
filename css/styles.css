@@ -109,7 +109,6 @@ header {
   line-height: 1.14;
   font-weight: 500;
   letter-spacing: 0.02em;
-  
 }
 header .container {
   display: flex;
@@ -176,13 +175,22 @@ footer {
   color: #ffffff;
   background-color: var(--footer-background-color);
 }
+
 footer .container {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: left;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 45px;
   padding-bottom: 28px;
+}
+
+footer .subscribe-social {
+  margin-left: 69px;
+}
+
+footer .subscribe-form {
+  margin-left: 94px;
 }
 
 footer a {
@@ -209,7 +217,7 @@ footer .logo {
 .address-item a:focus {
   color: var(--active-color);
 }
-footer .join {
+footer .subscribe {
   font-size: 14px;
   font-weight: 700;
   line-height: 0.87;
@@ -221,15 +229,6 @@ footer .social {
 }
 footer .social-item:not(:last-child) {
   margin-right: 10px;
-}
-.copy {
-  display: block;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  padding-top: 18px;
-  padding-bottom: 21px;
 }
 
 /* Hero */
@@ -416,11 +415,13 @@ footer .social-item:not(:last-child) {
 /* Portfolio */
 
 .our-works .container {
-  padding-top: 72px;
+  padding-top: 93x;
 }
+/* спрятанный заголовок */
 .our-works h1 {
-  line-height: 1;
+  line-height: 0;
   opacity: 0;
+  margin-top: 0px;
 }
 .our-works a {
   display: block;
@@ -516,3 +517,4 @@ footer .social-item:not(:last-child) {
   border-radius: 5px 5px 0px 0px;
 
   padding: 63px 24px;
+}
