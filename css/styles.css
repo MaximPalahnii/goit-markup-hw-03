@@ -47,7 +47,7 @@ body {
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 93px;
+  padding-top: 94px;
   padding-right: 15px;
   padding-bottom: 94px;
   padding-left: 15px;
@@ -109,11 +109,12 @@ header {
   line-height: 1.14;
   font-weight: 500;
   letter-spacing: 0.02em;
-  border: 1px solid #ececec;
+  
 }
 header .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 header a {
   text-decoration: none;
@@ -192,7 +193,7 @@ footer .logo {
   color: #ffffff;
   font-size: 22px;
   margin-right: 0px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 .address-list li:not(:last-child) {
   margin-bottom: 9px;
@@ -309,30 +310,30 @@ footer .social-item:not(:last-child) {
   text-align: left;
 }
 
-/* We do */
+/* Wedoit */
 
-.we-do ul {
+.wedoit ul {
   list-style-type: none;
 }
-.we-do a {
+.wedoit a {
   text-decoration: none;
 }
-.we-do img {
+.wedoit img {
   display: block;
 }
-.we-do-list {
+.wedoit-list {
   display: flex;
   justify-content: space-between;
 }
-.we-do-item {
+.wedoit-item {
   display: block;
   position: relative;
 }
-.we-do .item-image {
+.wedoit .item-image {
   display: block;
   background-color: unset;
 }
-.we-do .item-title {
+.wedoit .item-title {
   text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
