@@ -102,6 +102,10 @@ footer .social-item a {
   color: #ffffff;
   background-color: var(--active-color);
 }
+.footbutton {
+  margin-top: 0px;
+  margin-left: 151px;
+}
 
 /* Header */
 header {
