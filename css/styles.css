@@ -452,9 +452,7 @@ footer .social-item:not(:last-child) {
     0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
-.shadow {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+
 .works {
   display: flex;
   flex-wrap: wrap;
