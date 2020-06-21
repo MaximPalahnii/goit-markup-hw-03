@@ -273,13 +273,12 @@ footer .social-item:not(:last-child) {
 }
 
 /* Features */
-.features .container {
-  padding-top: 54px;
-}
+
 .features .title {
   opacity: 0;
   margin-top: 0px;
   margin-bottom: 0px;
+  height: 0px;
 }
 .features ul {
   list-style-type: none;
